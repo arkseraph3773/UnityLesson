@@ -1,0 +1,13 @@
+C:\unityCSarkseraph\UnityLesson_CS_Basic\UnityLesson_CS_IF\bin\Debug\netcoreapp3.1\UnityLesson_CS_IF.exe
+C:\unityCSarkseraph\UnityLesson_CS_Basic\UnityLesson_CS_IF\bin\Debug\netcoreapp3.1\UnityLesson_CS_IF.deps.json
+C:\unityCSarkseraph\UnityLesson_CS_Basic\UnityLesson_CS_IF\bin\Debug\netcoreapp3.1\UnityLesson_CS_IF.runtimeconfig.json
+C:\unityCSarkseraph\UnityLesson_CS_Basic\UnityLesson_CS_IF\bin\Debug\netcoreapp3.1\UnityLesson_CS_IF.runtimeconfig.dev.json
+C:\unityCSarkseraph\UnityLesson_CS_Basic\UnityLesson_CS_IF\bin\Debug\netcoreapp3.1\UnityLesson_CS_IF.dll
+C:\unityCSarkseraph\UnityLesson_CS_Basic\UnityLesson_CS_IF\bin\Debug\netcoreapp3.1\UnityLesson_CS_IF.pdb
+C:\unityCSarkseraph\UnityLesson_CS_Basic\UnityLesson_CS_IF\obj\Debug\netcoreapp3.1\UnityLesson_CS_IF.csproj.AssemblyReference.cache
+C:\unityCSarkseraph\UnityLesson_CS_Basic\UnityLesson_CS_IF\obj\Debug\netcoreapp3.1\UnityLesson_CS_IF.AssemblyInfoInputs.cache
+C:\unityCSarkseraph\UnityLesson_CS_Basic\UnityLesson_CS_IF\obj\Debug\netcoreapp3.1\UnityLesson_CS_IF.AssemblyInfo.cs
+C:\unityCSarkseraph\UnityLesson_CS_Basic\UnityLesson_CS_IF\obj\Debug\netcoreapp3.1\UnityLesson_CS_IF.csproj.CoreCompileInputs.cache
+C:\unityCSarkseraph\UnityLesson_CS_Basic\UnityLesson_CS_IF\obj\Debug\netcoreapp3.1\UnityLesson_CS_IF.dll
+C:\unityCSarkseraph\UnityLesson_CS_Basic\UnityLesson_CS_IF\obj\Debug\netcoreapp3.1\UnityLesson_CS_IF.pdb
+C:\unityCSarkseraph\UnityLesson_CS_Basic\UnityLesson_CS_IF\obj\Debug\netcoreapp3.1\UnityLesson_CS_IF.genruntimeconfig.cache

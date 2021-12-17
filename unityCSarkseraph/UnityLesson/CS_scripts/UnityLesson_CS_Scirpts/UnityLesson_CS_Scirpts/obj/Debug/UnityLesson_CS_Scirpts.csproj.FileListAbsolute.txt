@@ -1,0 +1,7 @@
+C:\unityCSarkseraph\UnityLesson\CS_scripts\UnityLesson_CS_Scirpts\UnityLesson_CS_Scirpts\bin\Debug\UnityLesson_CS_Scirpts.exe.config
+C:\unityCSarkseraph\UnityLesson\CS_scripts\UnityLesson_CS_Scirpts\UnityLesson_CS_Scirpts\bin\Debug\UnityLesson_CS_Scirpts.exe
+C:\unityCSarkseraph\UnityLesson\CS_scripts\UnityLesson_CS_Scirpts\UnityLesson_CS_Scirpts\bin\Debug\UnityLesson_CS_Scirpts.pdb
+C:\unityCSarkseraph\UnityLesson\CS_scripts\UnityLesson_CS_Scirpts\UnityLesson_CS_Scirpts\obj\Debug\UnityLesson_CS_Scirpts.csproj.AssemblyReference.cache
+C:\unityCSarkseraph\UnityLesson\CS_scripts\UnityLesson_CS_Scirpts\UnityLesson_CS_Scirpts\obj\Debug\UnityLesson_CS_Scirpts.csproj.CoreCompileInputs.cache
+C:\unityCSarkseraph\UnityLesson\CS_scripts\UnityLesson_CS_Scirpts\UnityLesson_CS_Scirpts\obj\Debug\UnityLesson_CS_Scirpts.exe
+C:\unityCSarkseraph\UnityLesson\CS_scripts\UnityLesson_CS_Scirpts\UnityLesson_CS_Scirpts\obj\Debug\UnityLesson_CS_Scirpts.pdb

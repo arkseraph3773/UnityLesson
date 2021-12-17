@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "UnityLesson_CS_StaticEX/1.0.0": {
+        "runtime": {
+          "UnityLesson_CS_StaticEX.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "UnityLesson_CS_StaticEX/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

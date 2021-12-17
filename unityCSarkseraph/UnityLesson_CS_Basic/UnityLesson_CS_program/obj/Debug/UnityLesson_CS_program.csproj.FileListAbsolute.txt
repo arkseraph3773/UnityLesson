@@ -1,0 +1,7 @@
+C:\unityCSarkseraph\UnityLesson_CS_Basic\UnityLesson_CS_program\bin\Debug\UnityLesson_CS_program.exe.config
+C:\unityCSarkseraph\UnityLesson_CS_Basic\UnityLesson_CS_program\bin\Debug\UnityLesson_CS_program.exe
+C:\unityCSarkseraph\UnityLesson_CS_Basic\UnityLesson_CS_program\bin\Debug\UnityLesson_CS_program.pdb
+C:\unityCSarkseraph\UnityLesson_CS_Basic\UnityLesson_CS_program\obj\Debug\UnityLesson_CS_program.csproj.AssemblyReference.cache
+C:\unityCSarkseraph\UnityLesson_CS_Basic\UnityLesson_CS_program\obj\Debug\UnityLesson_CS_program.csproj.CoreCompileInputs.cache
+C:\unityCSarkseraph\UnityLesson_CS_Basic\UnityLesson_CS_program\obj\Debug\UnityLesson_CS_program.exe
+C:\unityCSarkseraph\UnityLesson_CS_Basic\UnityLesson_CS_program\obj\Debug\UnityLesson_CS_program.pdb

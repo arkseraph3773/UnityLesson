@@ -1,0 +1,12 @@
+C:\Users\admin\Documents\GitHub\UnityLesson\unityCSarkseraph\UnityLesson_CS_Basic\UnityLesson_CS_StaticEX\obj\Debug\netcoreapp3.1\UnityLesson_CS_StaticEX.AssemblyInfoInputs.cache
+C:\Users\admin\Documents\GitHub\UnityLesson\unityCSarkseraph\UnityLesson_CS_Basic\UnityLesson_CS_StaticEX\obj\Debug\netcoreapp3.1\UnityLesson_CS_StaticEX.AssemblyInfo.cs
+C:\Users\admin\Documents\GitHub\UnityLesson\unityCSarkseraph\UnityLesson_CS_Basic\UnityLesson_CS_StaticEX\obj\Debug\netcoreapp3.1\UnityLesson_CS_StaticEX.csproj.CoreCompileInputs.cache
+C:\Users\admin\Documents\GitHub\UnityLesson\unityCSarkseraph\UnityLesson_CS_Basic\UnityLesson_CS_StaticEX\bin\Debug\netcoreapp3.1\UnityLesson_CS_StaticEX.exe
+C:\Users\admin\Documents\GitHub\UnityLesson\unityCSarkseraph\UnityLesson_CS_Basic\UnityLesson_CS_StaticEX\bin\Debug\netcoreapp3.1\UnityLesson_CS_StaticEX.deps.json
+C:\Users\admin\Documents\GitHub\UnityLesson\unityCSarkseraph\UnityLesson_CS_Basic\UnityLesson_CS_StaticEX\bin\Debug\netcoreapp3.1\UnityLesson_CS_StaticEX.runtimeconfig.json
+C:\Users\admin\Documents\GitHub\UnityLesson\unityCSarkseraph\UnityLesson_CS_Basic\UnityLesson_CS_StaticEX\bin\Debug\netcoreapp3.1\UnityLesson_CS_StaticEX.runtimeconfig.dev.json
+C:\Users\admin\Documents\GitHub\UnityLesson\unityCSarkseraph\UnityLesson_CS_Basic\UnityLesson_CS_StaticEX\bin\Debug\netcoreapp3.1\UnityLesson_CS_StaticEX.dll
+C:\Users\admin\Documents\GitHub\UnityLesson\unityCSarkseraph\UnityLesson_CS_Basic\UnityLesson_CS_StaticEX\bin\Debug\netcoreapp3.1\UnityLesson_CS_StaticEX.pdb
+C:\Users\admin\Documents\GitHub\UnityLesson\unityCSarkseraph\UnityLesson_CS_Basic\UnityLesson_CS_StaticEX\obj\Debug\netcoreapp3.1\UnityLesson_CS_StaticEX.dll
+C:\Users\admin\Documents\GitHub\UnityLesson\unityCSarkseraph\UnityLesson_CS_Basic\UnityLesson_CS_StaticEX\obj\Debug\netcoreapp3.1\UnityLesson_CS_StaticEX.pdb
+C:\Users\admin\Documents\GitHub\UnityLesson\unityCSarkseraph\UnityLesson_CS_Basic\UnityLesson_CS_StaticEX\obj\Debug\netcoreapp3.1\UnityLesson_CS_StaticEX.genruntimeconfig.cache

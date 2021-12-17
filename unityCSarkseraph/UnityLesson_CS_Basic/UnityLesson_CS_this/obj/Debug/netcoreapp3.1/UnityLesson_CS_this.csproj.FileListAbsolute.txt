@@ -1,0 +1,4 @@
+C:\unityCSarkseraph\UnityLesson_CS_Basic\UnityLesson_CS_this\obj\Debug\netcoreapp3.1\UnityLesson_CS_this.csproj.AssemblyReference.cache
+C:\unityCSarkseraph\UnityLesson_CS_Basic\UnityLesson_CS_this\obj\Debug\netcoreapp3.1\UnityLesson_CS_this.AssemblyInfoInputs.cache
+C:\unityCSarkseraph\UnityLesson_CS_Basic\UnityLesson_CS_this\obj\Debug\netcoreapp3.1\UnityLesson_CS_this.AssemblyInfo.cs
+C:\unityCSarkseraph\UnityLesson_CS_Basic\UnityLesson_CS_this\obj\Debug\netcoreapp3.1\UnityLesson_CS_this.csproj.CoreCompileInputs.cache
