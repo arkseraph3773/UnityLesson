@@ -50,7 +50,6 @@ namespace UnityLesson_CS_StaticEX
             Console.WriteLine($"{name}(이)가 휘둘렀다!");
         }
     }
-
     static class MapPortalZone //맵같이 불러올 필요없는 것
     {
         // static class를 쓰는 이유

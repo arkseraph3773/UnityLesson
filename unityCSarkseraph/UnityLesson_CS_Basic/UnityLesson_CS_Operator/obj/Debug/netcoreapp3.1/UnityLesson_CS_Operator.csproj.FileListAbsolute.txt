@@ -1,0 +1,13 @@
+C:\Users\admin\Documents\GitHub\UnityLesson\unityCSarkseraph\UnityLesson_CS_Basic\UnityLesson_CS_Operator\bin\Debug\netcoreapp3.1\UnityLesson_CS_Operator.exe
+C:\Users\admin\Documents\GitHub\UnityLesson\unityCSarkseraph\UnityLesson_CS_Basic\UnityLesson_CS_Operator\bin\Debug\netcoreapp3.1\UnityLesson_CS_Operator.deps.json
+C:\Users\admin\Documents\GitHub\UnityLesson\unityCSarkseraph\UnityLesson_CS_Basic\UnityLesson_CS_Operator\bin\Debug\netcoreapp3.1\UnityLesson_CS_Operator.runtimeconfig.json
+C:\Users\admin\Documents\GitHub\UnityLesson\unityCSarkseraph\UnityLesson_CS_Basic\UnityLesson_CS_Operator\bin\Debug\netcoreapp3.1\UnityLesson_CS_Operator.runtimeconfig.dev.json
+C:\Users\admin\Documents\GitHub\UnityLesson\unityCSarkseraph\UnityLesson_CS_Basic\UnityLesson_CS_Operator\bin\Debug\netcoreapp3.1\UnityLesson_CS_Operator.dll
+C:\Users\admin\Documents\GitHub\UnityLesson\unityCSarkseraph\UnityLesson_CS_Basic\UnityLesson_CS_Operator\bin\Debug\netcoreapp3.1\UnityLesson_CS_Operator.pdb
+C:\Users\admin\Documents\GitHub\UnityLesson\unityCSarkseraph\UnityLesson_CS_Basic\UnityLesson_CS_Operator\obj\Debug\netcoreapp3.1\UnityLesson_CS_Operator.AssemblyInfoInputs.cache
+C:\Users\admin\Documents\GitHub\UnityLesson\unityCSarkseraph\UnityLesson_CS_Basic\UnityLesson_CS_Operator\obj\Debug\netcoreapp3.1\UnityLesson_CS_Operator.AssemblyInfo.cs
+C:\Users\admin\Documents\GitHub\UnityLesson\unityCSarkseraph\UnityLesson_CS_Basic\UnityLesson_CS_Operator\obj\Debug\netcoreapp3.1\UnityLesson_CS_Operator.csproj.CoreCompileInputs.cache
+C:\Users\admin\Documents\GitHub\UnityLesson\unityCSarkseraph\UnityLesson_CS_Basic\UnityLesson_CS_Operator\obj\Debug\netcoreapp3.1\UnityLesson_CS_Operator.dll
+C:\Users\admin\Documents\GitHub\UnityLesson\unityCSarkseraph\UnityLesson_CS_Basic\UnityLesson_CS_Operator\obj\Debug\netcoreapp3.1\UnityLesson_CS_Operator.pdb
+C:\Users\admin\Documents\GitHub\UnityLesson\unityCSarkseraph\UnityLesson_CS_Basic\UnityLesson_CS_Operator\obj\Debug\netcoreapp3.1\UnityLesson_CS_Operator.genruntimeconfig.cache
+C:\Users\admin\Documents\GitHub\UnityLesson\unityCSarkseraph\UnityLesson_CS_Basic\UnityLesson_CS_Operator\obj\Debug\netcoreapp3.1\UnityLesson_CS_Operator.csproj.AssemblyReference.cache
