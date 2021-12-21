@@ -17,19 +17,19 @@ namespace UnityLesson_CS_Operator
             // 더하기, 빼기, 나누기, 곱하기, 나머지
             //===================================================================
             // 더하기
-            c = FunctionsForOperation.Sum(a, b);            
+            c = FunctionsForOperation.Sum(a, b);
             Console.WriteLine(c);
             //빼기
-            c = FunctionsForOperation.Sum1(a, b);
+            c = FunctionsForOperation.Sub(a, b);
             Console.WriteLine(c);
             //나누기 -> 정수를 나누기 하면 결과값에서 소수점은 버린다.(나머지를 버린다)
-            c = FunctionsForOperation.Sum2(a, b);
+            c = FunctionsForOperation.Div(a, b);
             Console.WriteLine(c);
             //곱하기
-            c = FunctionsForOperation.Sum3(a, b);
+            c = FunctionsForOperation.Mul(a, b);
             Console.WriteLine(c);
             //나머지
-            c = FunctionsForOperation.Sum4(a, b);
+           /* c = FunctionsForOperation.Sum4(a, b);
             Console.WriteLine(c);
 
             //증감연산
@@ -37,11 +37,11 @@ namespace UnityLesson_CS_Operator
             //================================================================
             //증가연산
             c = FunctionsForOperation.Sum5(c);
-            /*c++; //c = c + 1;*/
+            c++; //c = c + 1;
             Console.WriteLine(c);
             //감소연산
-            c = FunctionsForOperation.Sum6(c);
-            /*c--; //c = c - 1;*/
+            c = FunctionsForOperation.Sum6(c);*/
+            c--; //c = c - 1;
             Console.WriteLine(c);
 
             //관계연산

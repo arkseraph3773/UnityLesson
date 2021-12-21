@@ -13,6 +13,9 @@ namespace UnityLesson_CS_Operator
         {
             return a + b;
         }
+        //함수 오버로딩
+        //같은 기능을 수행하는 함수의 이름을 똑같이 하고
+        //인수(arguments) 의 타입만 변경하면 같은 이름의 함수를 여러개 만들수 있는 기능
         //뺄셈
         static public int Sub(int a, int b)
         {
@@ -48,9 +51,46 @@ namespace UnityLesson_CS_Operator
         {
             return a == b;
         }
-        static public bool Is(bool a, bool b)
+        static public bool IsDiffernt(bool a, bool b)
         {
-            return a == b;
+            return a != b;
+        }
+        static public bool IsSmaller(int a, int b)
+        {
+            return a < b;
+        }
+        static public bool IsBiggerOrSame(int a, int b)
+        {
+            return a >= b;
+        }
+        static public bool IsSmallerOrSame(int a, int b)
+        {
+            return a <= b;
+        }
+        static public int PlusBToA(int a, int b)
+        {
+            a += b;
+            return a;
+        }
+        static public int MinusBToA(int a, int b)
+        {
+            a -= b;
+            return a;
+        }
+        static public int MultiplyBToA(int a, int b)
+        {
+            a *= b;
+            return a;
+        }
+        static public int BivodeBToA(int a, int b)
+        {
+            a /= b;
+            return a;
+        }
+        static public int ModBToA(int a, int b)
+        {
+            a %= b;
+            return a;
         }
     }
 }

@@ -1,0 +1,12 @@
+C:\Users\admin\Documents\GitHub\UnityLesson\unityCSarkseraph\UnityLesson_CS_Basic\UnityLesson_CS_ForLoopSample\bin\Debug\netcoreapp3.1\UnityLesson_CS_ForLoopExample.exe
+C:\Users\admin\Documents\GitHub\UnityLesson\unityCSarkseraph\UnityLesson_CS_Basic\UnityLesson_CS_ForLoopSample\bin\Debug\netcoreapp3.1\UnityLesson_CS_ForLoopExample.deps.json
+C:\Users\admin\Documents\GitHub\UnityLesson\unityCSarkseraph\UnityLesson_CS_Basic\UnityLesson_CS_ForLoopSample\bin\Debug\netcoreapp3.1\UnityLesson_CS_ForLoopExample.runtimeconfig.json
+C:\Users\admin\Documents\GitHub\UnityLesson\unityCSarkseraph\UnityLesson_CS_Basic\UnityLesson_CS_ForLoopSample\bin\Debug\netcoreapp3.1\UnityLesson_CS_ForLoopExample.runtimeconfig.dev.json
+C:\Users\admin\Documents\GitHub\UnityLesson\unityCSarkseraph\UnityLesson_CS_Basic\UnityLesson_CS_ForLoopSample\bin\Debug\netcoreapp3.1\UnityLesson_CS_ForLoopExample.dll
+C:\Users\admin\Documents\GitHub\UnityLesson\unityCSarkseraph\UnityLesson_CS_Basic\UnityLesson_CS_ForLoopSample\bin\Debug\netcoreapp3.1\UnityLesson_CS_ForLoopExample.pdb
+C:\Users\admin\Documents\GitHub\UnityLesson\unityCSarkseraph\UnityLesson_CS_Basic\UnityLesson_CS_ForLoopSample\obj\Debug\netcoreapp3.1\UnityLesson_CS_ForLoopExample.AssemblyInfoInputs.cache
+C:\Users\admin\Documents\GitHub\UnityLesson\unityCSarkseraph\UnityLesson_CS_Basic\UnityLesson_CS_ForLoopSample\obj\Debug\netcoreapp3.1\UnityLesson_CS_ForLoopExample.AssemblyInfo.cs
+C:\Users\admin\Documents\GitHub\UnityLesson\unityCSarkseraph\UnityLesson_CS_Basic\UnityLesson_CS_ForLoopSample\obj\Debug\netcoreapp3.1\UnityLesson_CS_ForLoopExample.csproj.CoreCompileInputs.cache
+C:\Users\admin\Documents\GitHub\UnityLesson\unityCSarkseraph\UnityLesson_CS_Basic\UnityLesson_CS_ForLoopSample\obj\Debug\netcoreapp3.1\UnityLesson_CS_ForLoopExample.dll
+C:\Users\admin\Documents\GitHub\UnityLesson\unityCSarkseraph\UnityLesson_CS_Basic\UnityLesson_CS_ForLoopSample\obj\Debug\netcoreapp3.1\UnityLesson_CS_ForLoopExample.pdb
+C:\Users\admin\Documents\GitHub\UnityLesson\unityCSarkseraph\UnityLesson_CS_Basic\UnityLesson_CS_ForLoopSample\obj\Debug\netcoreapp3.1\UnityLesson_CS_ForLoopExample.genruntimeconfig.cache

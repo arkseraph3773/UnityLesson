@@ -1,0 +1,12 @@
+C:\Users\admin\Documents\GitHub\UnityLesson\unityCSarkseraph\UnityLesson_CS_Basic\UnityLesson_CS_WhileLoop\bin\Debug\netcoreapp3.1\UnityLesson_CS_WhileLoop.exe
+C:\Users\admin\Documents\GitHub\UnityLesson\unityCSarkseraph\UnityLesson_CS_Basic\UnityLesson_CS_WhileLoop\bin\Debug\netcoreapp3.1\UnityLesson_CS_WhileLoop.deps.json
+C:\Users\admin\Documents\GitHub\UnityLesson\unityCSarkseraph\UnityLesson_CS_Basic\UnityLesson_CS_WhileLoop\bin\Debug\netcoreapp3.1\UnityLesson_CS_WhileLoop.runtimeconfig.json
+C:\Users\admin\Documents\GitHub\UnityLesson\unityCSarkseraph\UnityLesson_CS_Basic\UnityLesson_CS_WhileLoop\bin\Debug\netcoreapp3.1\UnityLesson_CS_WhileLoop.runtimeconfig.dev.json
+C:\Users\admin\Documents\GitHub\UnityLesson\unityCSarkseraph\UnityLesson_CS_Basic\UnityLesson_CS_WhileLoop\bin\Debug\netcoreapp3.1\UnityLesson_CS_WhileLoop.dll
+C:\Users\admin\Documents\GitHub\UnityLesson\unityCSarkseraph\UnityLesson_CS_Basic\UnityLesson_CS_WhileLoop\bin\Debug\netcoreapp3.1\UnityLesson_CS_WhileLoop.pdb
+C:\Users\admin\Documents\GitHub\UnityLesson\unityCSarkseraph\UnityLesson_CS_Basic\UnityLesson_CS_WhileLoop\obj\Debug\netcoreapp3.1\UnityLesson_CS_WhileLoop.AssemblyInfoInputs.cache
+C:\Users\admin\Documents\GitHub\UnityLesson\unityCSarkseraph\UnityLesson_CS_Basic\UnityLesson_CS_WhileLoop\obj\Debug\netcoreapp3.1\UnityLesson_CS_WhileLoop.AssemblyInfo.cs
+C:\Users\admin\Documents\GitHub\UnityLesson\unityCSarkseraph\UnityLesson_CS_Basic\UnityLesson_CS_WhileLoop\obj\Debug\netcoreapp3.1\UnityLesson_CS_WhileLoop.csproj.CoreCompileInputs.cache
+C:\Users\admin\Documents\GitHub\UnityLesson\unityCSarkseraph\UnityLesson_CS_Basic\UnityLesson_CS_WhileLoop\obj\Debug\netcoreapp3.1\UnityLesson_CS_WhileLoop.dll
+C:\Users\admin\Documents\GitHub\UnityLesson\unityCSarkseraph\UnityLesson_CS_Basic\UnityLesson_CS_WhileLoop\obj\Debug\netcoreapp3.1\UnityLesson_CS_WhileLoop.pdb
+C:\Users\admin\Documents\GitHub\UnityLesson\unityCSarkseraph\UnityLesson_CS_Basic\UnityLesson_CS_WhileLoop\obj\Debug\netcoreapp3.1\UnityLesson_CS_WhileLoop.genruntimeconfig.cache

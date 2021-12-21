@@ -17,7 +17,7 @@ namespace UnityLesson_CS_Class_Object_Instance
             // 그리고 이렇게 되었을때 new AA(로 생성된 객체를 인스턴스 라고 한다/
             // 이때 이 a를 인스턴스라고 함.
             AA a = new AA(); //객체의 변수화
-            int i = 13;
+            //int i = 13;
         }
 
     }

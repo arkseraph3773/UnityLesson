@@ -1,0 +1,12 @@
+C:\Users\admin\Documents\GitHub\UnityLesson\unityCSarkseraph\UnityLesson_CS_Basic\UnityLesson_CS_Array\bin\Debug\netcoreapp3.1\UnityLesson_CS_Array.exe
+C:\Users\admin\Documents\GitHub\UnityLesson\unityCSarkseraph\UnityLesson_CS_Basic\UnityLesson_CS_Array\bin\Debug\netcoreapp3.1\UnityLesson_CS_Array.deps.json
+C:\Users\admin\Documents\GitHub\UnityLesson\unityCSarkseraph\UnityLesson_CS_Basic\UnityLesson_CS_Array\bin\Debug\netcoreapp3.1\UnityLesson_CS_Array.runtimeconfig.json
+C:\Users\admin\Documents\GitHub\UnityLesson\unityCSarkseraph\UnityLesson_CS_Basic\UnityLesson_CS_Array\bin\Debug\netcoreapp3.1\UnityLesson_CS_Array.runtimeconfig.dev.json
+C:\Users\admin\Documents\GitHub\UnityLesson\unityCSarkseraph\UnityLesson_CS_Basic\UnityLesson_CS_Array\bin\Debug\netcoreapp3.1\UnityLesson_CS_Array.dll
+C:\Users\admin\Documents\GitHub\UnityLesson\unityCSarkseraph\UnityLesson_CS_Basic\UnityLesson_CS_Array\bin\Debug\netcoreapp3.1\UnityLesson_CS_Array.pdb
+C:\Users\admin\Documents\GitHub\UnityLesson\unityCSarkseraph\UnityLesson_CS_Basic\UnityLesson_CS_Array\obj\Debug\netcoreapp3.1\UnityLesson_CS_Array.AssemblyInfoInputs.cache
+C:\Users\admin\Documents\GitHub\UnityLesson\unityCSarkseraph\UnityLesson_CS_Basic\UnityLesson_CS_Array\obj\Debug\netcoreapp3.1\UnityLesson_CS_Array.AssemblyInfo.cs
+C:\Users\admin\Documents\GitHub\UnityLesson\unityCSarkseraph\UnityLesson_CS_Basic\UnityLesson_CS_Array\obj\Debug\netcoreapp3.1\UnityLesson_CS_Array.csproj.CoreCompileInputs.cache
+C:\Users\admin\Documents\GitHub\UnityLesson\unityCSarkseraph\UnityLesson_CS_Basic\UnityLesson_CS_Array\obj\Debug\netcoreapp3.1\UnityLesson_CS_Array.dll
+C:\Users\admin\Documents\GitHub\UnityLesson\unityCSarkseraph\UnityLesson_CS_Basic\UnityLesson_CS_Array\obj\Debug\netcoreapp3.1\UnityLesson_CS_Array.pdb
+C:\Users\admin\Documents\GitHub\UnityLesson\unityCSarkseraph\UnityLesson_CS_Basic\UnityLesson_CS_Array\obj\Debug\netcoreapp3.1\UnityLesson_CS_Array.genruntimeconfig.cache
