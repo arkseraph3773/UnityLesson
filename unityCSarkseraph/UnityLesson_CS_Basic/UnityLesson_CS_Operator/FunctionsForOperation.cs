@@ -92,5 +92,54 @@ namespace UnityLesson_CS_Operator
             a %= b;
             return a;
         }
+
+        static public bool LogicOR(bool a, bool b)
+        {
+            return a | b;
+        }
+        static public bool LogicAND(bool a, bool b)
+        {
+            return a & b;
+        }
+        static public bool LogicXOR(bool a, bool b)
+        {
+            return a ^ b;
+        }
+        static public bool LogicCOT(bool a, bool b)
+        {
+            return !a;
+        }
+        static public bool ConditionalLogicOR(bool a, bool b)
+        {
+            return a || b;
+        }
+        static public bool ConditionalLogicAND(bool a, bool b)
+        {
+            return a && b;
+        }
+        static public int BitLogicOR(int a, int b)
+        {
+            return a | b;
+        }
+        static public int BitLogicAND(int a, int b)
+        {
+            return a & b;
+        }
+        static public int BitLogicXOR(int a, int b)
+        {
+            return a ^ b;
+        }
+        static public int BitLogicLeft(int a, int howManyBitYouWantShift)
+        {
+            return a >> howManyBitYouWantShift;
+        }
+        static public int BitLogicRight(int a, int howManyBitYouWantShift)
+        {
+            return a << howManyBitYouWantShift;
+        }
+        static public int BitComplement(int a)
+        {
+            return ~a;
+        }
     }
 }
