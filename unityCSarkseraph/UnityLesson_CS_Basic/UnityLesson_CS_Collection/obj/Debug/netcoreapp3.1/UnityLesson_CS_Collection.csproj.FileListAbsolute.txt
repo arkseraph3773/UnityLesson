@@ -1,0 +1,13 @@
+C:\Users\admin\Documents\GitHub\UnityLesson\unityCSarkseraph\UnityLesson_CS_Basic\UnityLesson_CS_Collection\bin\Debug\netcoreapp3.1\UnityLesson_CS_Collection.exe
+C:\Users\admin\Documents\GitHub\UnityLesson\unityCSarkseraph\UnityLesson_CS_Basic\UnityLesson_CS_Collection\bin\Debug\netcoreapp3.1\UnityLesson_CS_Collection.deps.json
+C:\Users\admin\Documents\GitHub\UnityLesson\unityCSarkseraph\UnityLesson_CS_Basic\UnityLesson_CS_Collection\bin\Debug\netcoreapp3.1\UnityLesson_CS_Collection.runtimeconfig.json
+C:\Users\admin\Documents\GitHub\UnityLesson\unityCSarkseraph\UnityLesson_CS_Basic\UnityLesson_CS_Collection\bin\Debug\netcoreapp3.1\UnityLesson_CS_Collection.runtimeconfig.dev.json
+C:\Users\admin\Documents\GitHub\UnityLesson\unityCSarkseraph\UnityLesson_CS_Basic\UnityLesson_CS_Collection\bin\Debug\netcoreapp3.1\UnityLesson_CS_Collection.dll
+C:\Users\admin\Documents\GitHub\UnityLesson\unityCSarkseraph\UnityLesson_CS_Basic\UnityLesson_CS_Collection\bin\Debug\netcoreapp3.1\UnityLesson_CS_Collection.pdb
+C:\Users\admin\Documents\GitHub\UnityLesson\unityCSarkseraph\UnityLesson_CS_Basic\UnityLesson_CS_Collection\obj\Debug\netcoreapp3.1\UnityLesson_CS_Collection.csproj.AssemblyReference.cache
+C:\Users\admin\Documents\GitHub\UnityLesson\unityCSarkseraph\UnityLesson_CS_Basic\UnityLesson_CS_Collection\obj\Debug\netcoreapp3.1\UnityLesson_CS_Collection.AssemblyInfoInputs.cache
+C:\Users\admin\Documents\GitHub\UnityLesson\unityCSarkseraph\UnityLesson_CS_Basic\UnityLesson_CS_Collection\obj\Debug\netcoreapp3.1\UnityLesson_CS_Collection.AssemblyInfo.cs
+C:\Users\admin\Documents\GitHub\UnityLesson\unityCSarkseraph\UnityLesson_CS_Basic\UnityLesson_CS_Collection\obj\Debug\netcoreapp3.1\UnityLesson_CS_Collection.csproj.CoreCompileInputs.cache
+C:\Users\admin\Documents\GitHub\UnityLesson\unityCSarkseraph\UnityLesson_CS_Basic\UnityLesson_CS_Collection\obj\Debug\netcoreapp3.1\UnityLesson_CS_Collection.dll
+C:\Users\admin\Documents\GitHub\UnityLesson\unityCSarkseraph\UnityLesson_CS_Basic\UnityLesson_CS_Collection\obj\Debug\netcoreapp3.1\UnityLesson_CS_Collection.pdb
+C:\Users\admin\Documents\GitHub\UnityLesson\unityCSarkseraph\UnityLesson_CS_Basic\UnityLesson_CS_Collection\obj\Debug\netcoreapp3.1\UnityLesson_CS_Collection.genruntimeconfig.cache

@@ -23,13 +23,15 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UnityLesson_CS_StaticEX", "
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UnityLesson_CS_Operator", "UnityLesson_CS_Operator\UnityLesson_CS_Operator.csproj", "{978F3DDF-ED52-4959-9B3F-AD6D6FADC716}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnityLesson_CS_Array", "UnityLesson_CS_Array\UnityLesson_CS_Array.csproj", "{262554EC-524E-4574-AC8A-EC85C2F8CD44}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UnityLesson_CS_Array", "UnityLesson_CS_Array\UnityLesson_CS_Array.csproj", "{262554EC-524E-4574-AC8A-EC85C2F8CD44}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnityLesson_CS_WhileLoop", "UnityLesson_CS_WhileLoop\UnityLesson_CS_WhileLoop.csproj", "{02C98F7E-4F9E-4342-8172-18D2E618E768}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UnityLesson_CS_WhileLoop", "UnityLesson_CS_WhileLoop\UnityLesson_CS_WhileLoop.csproj", "{02C98F7E-4F9E-4342-8172-18D2E618E768}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnityLesson_CS_ForLoop", "UnityLesson_CS_ForLoop\UnityLesson_CS_ForLoop.csproj", "{6D618FB6-5586-4CC6-87AA-546ECDE678A0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UnityLesson_CS_ForLoop", "UnityLesson_CS_ForLoop\UnityLesson_CS_ForLoop.csproj", "{6D618FB6-5586-4CC6-87AA-546ECDE678A0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnityLesson_CS_ForLoopExample", "UnityLesson_CS_ForLoopSample\UnityLesson_CS_ForLoopExample.csproj", "{915339E1-B331-4E4A-8A03-670C71774460}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UnityLesson_CS_ForLoopExample", "UnityLesson_CS_ForLoopSample\UnityLesson_CS_ForLoopExample.csproj", "{915339E1-B331-4E4A-8A03-670C71774460}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnityLesson_CS_Collection", "UnityLesson_CS_Collection\UnityLesson_CS_Collection.csproj", "{929BFB5E-872D-43E4-9E8E-6E84721ACF79}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -93,6 +95,10 @@ Global
 		{915339E1-B331-4E4A-8A03-670C71774460}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{915339E1-B331-4E4A-8A03-670C71774460}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{915339E1-B331-4E4A-8A03-670C71774460}.Release|Any CPU.Build.0 = Release|Any CPU
+		{929BFB5E-872D-43E4-9E8E-6E84721ACF79}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{929BFB5E-872D-43E4-9E8E-6E84721ACF79}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{929BFB5E-872D-43E4-9E8E-6E84721ACF79}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{929BFB5E-872D-43E4-9E8E-6E84721ACF79}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

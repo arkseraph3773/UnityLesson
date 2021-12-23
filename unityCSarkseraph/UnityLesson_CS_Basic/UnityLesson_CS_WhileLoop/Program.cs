@@ -34,6 +34,19 @@ namespace UnityLesson_CS_WhileLoop
                 count++;
             }
 
+            //break 를 사용한 while문 탈출방법
+            while (true)
+            {
+                if (count < length)
+                {
+                    Console.WriteLine(arr_PersonName[count]);
+                }
+                else
+                {
+                    break;
+                }
+                count++;
+            }
         }
     }
 }

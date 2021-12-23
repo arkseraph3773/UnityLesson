@@ -29,19 +29,19 @@ namespace UnityLesson_CS_Operator
             c = FunctionsForOperation.Mul(a, b);
             Console.WriteLine(c);
             //나머지
-           /* c = FunctionsForOperation.Sum4(a, b);
+            c = FunctionsForOperation.Mod(a, b);
             Console.WriteLine(c);
 
             //증감연산
             //증가연산자, 감소연산자
             //================================================================
             //증가연산
-            c = FunctionsForOperation.Sum5(c);
-            c++; //c = c + 1;
+            c = FunctionsForOperation.Increase(c);
+            /*c++; //c = c + 1;*/
             Console.WriteLine(c);
             //감소연산
-            c = FunctionsForOperation.Sum6(c);*/
-            c--; //c = c - 1;
+            c = FunctionsForOperation.Decrease(c);
+            /*c--; //c = c - 1;*/
             Console.WriteLine(c);
 
             //관계연산

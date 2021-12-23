@@ -11,18 +11,37 @@ namespace UnityLesson_CS_ForLoopExample
     {
         static void Main(string[] args)
         {
-            Orc[] arr_Orc = new Orc[10];
+            Orc[] arr_Orc = new Orc[10]; // 크기(길이)가 10인 오크타입의 배열을 선언
             int length = arr_Orc.Length;
             for (int i = 0; i < length; i++)
             {
-                arr_Orc[i] = new Orc();
+                arr_Orc[i] = new Orc(); // 길이가 10인 오크 타입의 배열의 i번째 공간에 오크 타입 객체를 생성해서 넣어줬다.
                 arr_Orc[i].name = "오크" + i;
-                arr_Orc[i].name = $"오크{i}";
+                /*arr_Orc[i].name = $"오크{i}";*/ //둘중 아무거나 갠춘
+                arr_Orc[i].isState = GetRandomBool(); //상태를 랜덤으로 만드는 함수
+                /*if (arr_Orc[i].isState)
+                {
+                    arr_Orc[i].Jump();
+                }*/
             }
             for (int i = 0; i < length; i++)
             {
-                arr_Orc[i].isState = GetRandomBool();
+                if (i < 10)
+                {
+                    if (arr_Orc[i].isState)
+                    {
+                        arr_Orc[i].Jump();
+                    }
+                }
+                else
+                {
+                    break;
+                }
             }
+            /*for (int i = 0; i < length; i++)
+            {
+                arr_Orc[i].isState = GetRandomBool(); //상태를 랜덤으로 만드는 함수
+            }*/
             /*arr_Orc[0].isState = true;
             arr_Orc[1].isState = false;
             arr_Orc[2].isState = true;
@@ -33,15 +52,25 @@ namespace UnityLesson_CS_ForLoopExample
             arr_Orc[7].isState = false;
             arr_Orc[8].isState = true;
             arr_Orc[9].isState = true;*/
-            for (int i = 0; i < length; i++)
+            /*for (int i = 0; i < length; i++) //상태를 보고 행동을 취하게 하는 for문
             {
                 if (arr_Orc[i].isState)
                 {
                     arr_Orc[i].Jump();
                 }
-            }
+            }*/
+            /*for (int i = 0; i < length; i++)
+            {
+                if (i < 5)
+                {
+                    if (arr_Orc[i].isState)
+                    {
+                        arr_Orc[i].Jump();
+                    }
+                }
+            }*/
         }
-        static public bool GetRandomBool()
+        static public bool GetRandomBool() //랜덤 난수
         {
             Random rand = new Random();
             bool value = Convert.ToBoolean(rand.Next(0, 2)); //Convert.ToBoolean형변환
@@ -64,8 +93,10 @@ namespace UnityLesson_CS_ForLoopExample
         }
         public void Smash()
         {
+            string tmpString = $"{name}(이)가 휘둘렀다!";
             //Console.WriteLine(name + "휘두르기");
-            Console.WriteLine($"{name}(이)가 휘둘렀다!");
+            /*Console.WriteLine($"{name}(이)가 휘둘렀다!");*/
+            Console.WriteLine(tmpString); //임시 변수
         }
 
         public void CheckisState()
