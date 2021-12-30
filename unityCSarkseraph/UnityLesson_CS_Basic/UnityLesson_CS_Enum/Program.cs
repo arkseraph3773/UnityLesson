@@ -9,7 +9,7 @@ enum e_PlayerState //이름만 지정해주면 자동으로 숫자를 매겨줌
     WALK,   // ...00000011
     RUN,    // ...00000100
     DASH,   // ...00000101
-    HOME,    // ...00000110
+    HOME,   // ...00000110
 
     JUMP_ATTACK = JUMP | ATTACK // 00000011
 }
