@@ -37,7 +37,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UnityLesson_CS_Enum", "Unit
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnityLesson_CS_Structure", "UnityLesson_CS_Structure\UnityLesson_CS_Structure.csproj", "{26C7ED07-94F5-47B3-A6BD-B406A1B14FF4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnityLesson_CS_GabageCollector", "UnityLesson_CS_GabageCollector\UnityLesson_CS_GabageCollector.csproj", "{7AFB422B-8D92-4B6B-B3DF-1480C0BF59C9}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnityLesson_CS_GarbageCollector", "UnityLesson_CS_GabageCollector\UnityLesson_CS_GarbageCollector.csproj", "{7AFB422B-8D92-4B6B-B3DF-1480C0BF59C9}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
