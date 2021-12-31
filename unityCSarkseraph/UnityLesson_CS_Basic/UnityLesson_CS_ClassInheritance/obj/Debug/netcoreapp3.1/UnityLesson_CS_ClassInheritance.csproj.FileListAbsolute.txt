@@ -1,0 +1,13 @@
+C:\Users\admin\Documents\GitHub\UnityLesson\unityCSarkseraph\UnityLesson_CS_Basic\UnityLesson_CS_ClassInheritance\bin\Debug\netcoreapp3.1\UnityLesson_CS_ClassInheritance.exe
+C:\Users\admin\Documents\GitHub\UnityLesson\unityCSarkseraph\UnityLesson_CS_Basic\UnityLesson_CS_ClassInheritance\bin\Debug\netcoreapp3.1\UnityLesson_CS_ClassInheritance.deps.json
+C:\Users\admin\Documents\GitHub\UnityLesson\unityCSarkseraph\UnityLesson_CS_Basic\UnityLesson_CS_ClassInheritance\bin\Debug\netcoreapp3.1\UnityLesson_CS_ClassInheritance.runtimeconfig.json
+C:\Users\admin\Documents\GitHub\UnityLesson\unityCSarkseraph\UnityLesson_CS_Basic\UnityLesson_CS_ClassInheritance\bin\Debug\netcoreapp3.1\UnityLesson_CS_ClassInheritance.runtimeconfig.dev.json
+C:\Users\admin\Documents\GitHub\UnityLesson\unityCSarkseraph\UnityLesson_CS_Basic\UnityLesson_CS_ClassInheritance\bin\Debug\netcoreapp3.1\UnityLesson_CS_ClassInheritance.dll
+C:\Users\admin\Documents\GitHub\UnityLesson\unityCSarkseraph\UnityLesson_CS_Basic\UnityLesson_CS_ClassInheritance\bin\Debug\netcoreapp3.1\UnityLesson_CS_ClassInheritance.pdb
+C:\Users\admin\Documents\GitHub\UnityLesson\unityCSarkseraph\UnityLesson_CS_Basic\UnityLesson_CS_ClassInheritance\obj\Debug\netcoreapp3.1\UnityLesson_CS_ClassInheritance.csproj.AssemblyReference.cache
+C:\Users\admin\Documents\GitHub\UnityLesson\unityCSarkseraph\UnityLesson_CS_Basic\UnityLesson_CS_ClassInheritance\obj\Debug\netcoreapp3.1\UnityLesson_CS_ClassInheritance.AssemblyInfoInputs.cache
+C:\Users\admin\Documents\GitHub\UnityLesson\unityCSarkseraph\UnityLesson_CS_Basic\UnityLesson_CS_ClassInheritance\obj\Debug\netcoreapp3.1\UnityLesson_CS_ClassInheritance.AssemblyInfo.cs
+C:\Users\admin\Documents\GitHub\UnityLesson\unityCSarkseraph\UnityLesson_CS_Basic\UnityLesson_CS_ClassInheritance\obj\Debug\netcoreapp3.1\UnityLesson_CS_ClassInheritance.csproj.CoreCompileInputs.cache
+C:\Users\admin\Documents\GitHub\UnityLesson\unityCSarkseraph\UnityLesson_CS_Basic\UnityLesson_CS_ClassInheritance\obj\Debug\netcoreapp3.1\UnityLesson_CS_ClassInheritance.dll
+C:\Users\admin\Documents\GitHub\UnityLesson\unityCSarkseraph\UnityLesson_CS_Basic\UnityLesson_CS_ClassInheritance\obj\Debug\netcoreapp3.1\UnityLesson_CS_ClassInheritance.pdb
+C:\Users\admin\Documents\GitHub\UnityLesson\unityCSarkseraph\UnityLesson_CS_Basic\UnityLesson_CS_ClassInheritance\obj\Debug\netcoreapp3.1\UnityLesson_CS_ClassInheritance.genruntimeconfig.cache

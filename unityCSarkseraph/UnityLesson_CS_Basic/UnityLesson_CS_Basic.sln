@@ -35,9 +35,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UnityLesson_CS_Collection",
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UnityLesson_CS_Enum", "UnityLesson_CS_Enum\UnityLesson_CS_Enum.csproj", "{37432C93-ED64-4D93-9C11-186864B5B1BD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnityLesson_CS_Structure", "UnityLesson_CS_Structure\UnityLesson_CS_Structure.csproj", "{26C7ED07-94F5-47B3-A6BD-B406A1B14FF4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UnityLesson_CS_Structure", "UnityLesson_CS_Structure\UnityLesson_CS_Structure.csproj", "{26C7ED07-94F5-47B3-A6BD-B406A1B14FF4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnityLesson_CS_GarbageCollector", "UnityLesson_CS_GabageCollector\UnityLesson_CS_GarbageCollector.csproj", "{7AFB422B-8D92-4B6B-B3DF-1480C0BF59C9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UnityLesson_CS_GarbageCollector", "UnityLesson_CS_GabageCollector\UnityLesson_CS_GarbageCollector.csproj", "{7AFB422B-8D92-4B6B-B3DF-1480C0BF59C9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnityLesson_CS_ClassInheritance", "UnityLesson_CS_ClassInheritance\UnityLesson_CS_ClassInheritance.csproj", "{EC31EA82-3509-44E6-ABCF-EC7766A75546}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnityLesson_CS_SOLID", "UnityLesson_CS_SOLID\UnityLesson_CS_SOLID.csproj", "{04376176-FE89-4CB6-8B44-12343F6DAE7F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -117,6 +121,14 @@ Global
 		{7AFB422B-8D92-4B6B-B3DF-1480C0BF59C9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7AFB422B-8D92-4B6B-B3DF-1480C0BF59C9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7AFB422B-8D92-4B6B-B3DF-1480C0BF59C9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EC31EA82-3509-44E6-ABCF-EC7766A75546}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EC31EA82-3509-44E6-ABCF-EC7766A75546}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EC31EA82-3509-44E6-ABCF-EC7766A75546}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EC31EA82-3509-44E6-ABCF-EC7766A75546}.Release|Any CPU.Build.0 = Release|Any CPU
+		{04376176-FE89-4CB6-8B44-12343F6DAE7F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{04376176-FE89-4CB6-8B44-12343F6DAE7F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{04376176-FE89-4CB6-8B44-12343F6DAE7F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{04376176-FE89-4CB6-8B44-12343F6DAE7F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

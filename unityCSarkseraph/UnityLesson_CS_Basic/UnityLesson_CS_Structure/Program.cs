@@ -46,10 +46,10 @@ namespace UnityLesson_CS_Structure
             equipment_stilldager._DEX = 100;
             equipment_stilldager._Durability = 250;*/
 
-            Equipment[] arr_Equipment = new Equipment[5];
+            /*Equipment[] arr_Equipment = new Equipment[5];
             {
 
-            }
+            }*/
         }
     }
 }
