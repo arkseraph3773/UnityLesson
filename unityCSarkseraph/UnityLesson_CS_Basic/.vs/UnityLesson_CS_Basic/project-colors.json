@@ -1,0 +1,46 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "758d4d86-003b-4cb4-829f-cef65ae84693": {
+      "ProjectGuid": "758d4d86-003b-4cb4-829f-cef65ae84693",
+      "DisplayName": "UnityLesson_CS_program",
+      "ColorIndex": 0
+    },
+    "43522001-d6ce-4e77-8aa4-7e9ccb806849": {
+      "ProjectGuid": "43522001-d6ce-4e77-8aa4-7e9ccb806849",
+      "DisplayName": "UnityLesson_CS_Delegate",
+      "ColorIndex": 1
+    },
+    "7afb422b-8d92-4b6b-b3df-1480c0bf59c9": {
+      "ProjectGuid": "7afb422b-8d92-4b6b-b3df-1480c0bf59c9",
+      "DisplayName": "UnityLesson_CS_GarbageCollector",
+      "ColorIndex": 2
+    },
+    "37432c93-ed64-4d93-9c11-186864b5b1bd": {
+      "ProjectGuid": "37432c93-ed64-4d93-9c11-186864b5b1bd",
+      "DisplayName": "UnityLesson_CS_Enum",
+      "ColorIndex": 3
+    },
+    "929bfb5e-872d-43e4-9e8e-6e84721acf79": {
+      "ProjectGuid": "929bfb5e-872d-43e4-9e8e-6e84721acf79",
+      "DisplayName": "UnityLesson_CS_Collection",
+      "ColorIndex": 4
+    },
+    "8772ced2-0f1e-47da-baaf-eb7877e69a22": {
+      "ProjectGuid": "8772ced2-0f1e-47da-baaf-eb7877e69a22",
+      "DisplayName": "UnityLesson_CS_HorseRacing",
+      "ColorIndex": 5
+    },
+    "ec31ea82-3509-44e6-abcf-ec7766a75546": {
+      "ProjectGuid": "ec31ea82-3509-44e6-abcf-ec7766a75546",
+      "DisplayName": "UnityLesson_CS_ClassInheritance",
+      "ColorIndex": 6
+    },
+    "a1f810c2-ecbd-4be3-91f7-f272f6f04825": {
+      "ProjectGuid": "a1f810c2-ecbd-4be3-91f7-f272f6f04825",
+      "DisplayName": "UnityLesson_CS_StaticEX",
+      "ColorIndex": 7
+    }
+  },
+  "NextColorIndex": 8
+}
