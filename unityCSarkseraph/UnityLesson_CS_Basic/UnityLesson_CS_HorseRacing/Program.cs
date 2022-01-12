@@ -21,54 +21,60 @@ namespace UnityLesson_CS_HorseRacing
 {
     class Program
     {
-        static bool isGameFinished = false;
-        static int finishDistance = 200;
-        static int currentGrade = 1;
         static Random random;
+        static bool isGameFinished = false;
+        static int minSpeed = 10;
+        static int maxSpeed = 20;
+        static int finishDistance = 200;
+
         static void Main(string[] args)
         {
-            Horse[] arr_Horse = new Horse[5];
-            string[] arr_FinishedHorseName = new string[5];
+            Horse[] arr_Horse = new Horse[5]; //말 생성
+            string[] arr_FinishedHorseName = new string[5]; 
+            int currentGrade = 1; // 등수 변수
             int length = arr_Horse.Length;
-
             for (int i = 0; i < length; i++)
             {
                 arr_Horse[i] = new Horse();
-                arr_Horse[i].name = "경주마" + i;
+                arr_Horse[i].name = "경주마" + i +1;
             }
-
             Console.WriteLine("뛰어라!");
-
-            while (!isGameFinished)
+            int count = 0;
+            while(isGameFinished == false) //!isGameFinished는 not
             {
+                Console.WriteLine($"================= {count} 초 =================");
                 for (int i = 0; i < length; i++)
-                random = new Random();
-                int tmpMoveDistance = random.Next(10,21);
-                arr_Horse[i].Run(tmpMoveDistance);
-                Console.WriteLine($"{arr_Horse[i].name}의 위치 : {arr_Horse[i].distance}");
-                if (arr_Horse[i].distance >= finishDistance)
                 {
-                    arr_FinishedHorseName[currentGrade - 1] = arr_Horse[i].name;
-                    currentGrade++;
+                    if (arr_Horse[i].dontMove == false)
+                    {
+                        random = new Random();
+                        int tmpMoveDistance = random.Next(minSpeed, maxSpeed + 1);
+                        arr_Horse[i].Run(tmpMoveDistance);
+                        //arr_Horse[i].Run(10 과 20사이의 정수);
+                        Console.WriteLine($"{arr_Horse[i].name}(이)가 달린거리 : {arr_Horse[i].distance}");
+                        if (arr_Horse[i].distance >= finishDistance)
+                        {
+                            arr_Horse[i].dontMove = true;
+                            arr_FinishedHorseName[currentGrade - 1] = arr_Horse[i].name;
+                            currentGrade++;
+                        }
+                    }
                 }
-
-                if(currentGrade > 5)
+                Console.WriteLine($"==================================");
+                if (currentGrade > 5)
                 {
                     isGameFinished = true;
-                    Console.WriteLine("끝");
-                    break;
+                    Console.WriteLine("경주는 끝났다.");
+                    break; //끝나고도 1초 지연시키려면 break지움
                 }
-
-                Thread.Sleep(1000);
+                Thread.Sleep(1000); // 1000 ms = 1 sec.
+                count++;
             }
-
-            Console.WriteLine("결과");
-            for(int i = 0; i < arr_FinishedHorseName.Length; i++)
+            Console.WriteLine("===========결과 발표===========");
+            for (int i = 0; i < length; i++)
             {
-                Console.WriteLine($"1등 : {arr_FinishedHorseName[i]}");
+                Console.WriteLine($"{i + 1} 등 : {arr_FinishedHorseName[i]}");
             }
-            
-
         }
     }
 }

@@ -1,0 +1,15 @@
+C:\Users\User\Documents\GitHub\UnityLesson\unityCSarkseraph\UnityLesson_CS_Basic\UnityLesson_CS_HorseRacing\bin\Debug\net6.0\UnityLesson_CS_HorseRacing.exe
+C:\Users\User\Documents\GitHub\UnityLesson\unityCSarkseraph\UnityLesson_CS_Basic\UnityLesson_CS_HorseRacing\bin\Debug\net6.0\UnityLesson_CS_HorseRacing.deps.json
+C:\Users\User\Documents\GitHub\UnityLesson\unityCSarkseraph\UnityLesson_CS_Basic\UnityLesson_CS_HorseRacing\bin\Debug\net6.0\UnityLesson_CS_HorseRacing.runtimeconfig.json
+C:\Users\User\Documents\GitHub\UnityLesson\unityCSarkseraph\UnityLesson_CS_Basic\UnityLesson_CS_HorseRacing\bin\Debug\net6.0\UnityLesson_CS_HorseRacing.dll
+C:\Users\User\Documents\GitHub\UnityLesson\unityCSarkseraph\UnityLesson_CS_Basic\UnityLesson_CS_HorseRacing\bin\Debug\net6.0\ref\UnityLesson_CS_HorseRacing.dll
+C:\Users\User\Documents\GitHub\UnityLesson\unityCSarkseraph\UnityLesson_CS_Basic\UnityLesson_CS_HorseRacing\bin\Debug\net6.0\UnityLesson_CS_HorseRacing.pdb
+C:\Users\User\Documents\GitHub\UnityLesson\unityCSarkseraph\UnityLesson_CS_Basic\UnityLesson_CS_HorseRacing\obj\Debug\net6.0\UnityLesson_CS_HorseRacing.csproj.AssemblyReference.cache
+C:\Users\User\Documents\GitHub\UnityLesson\unityCSarkseraph\UnityLesson_CS_Basic\UnityLesson_CS_HorseRacing\obj\Debug\net6.0\UnityLesson_CS_HorseRacing.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\Documents\GitHub\UnityLesson\unityCSarkseraph\UnityLesson_CS_Basic\UnityLesson_CS_HorseRacing\obj\Debug\net6.0\UnityLesson_CS_HorseRacing.AssemblyInfoInputs.cache
+C:\Users\User\Documents\GitHub\UnityLesson\unityCSarkseraph\UnityLesson_CS_Basic\UnityLesson_CS_HorseRacing\obj\Debug\net6.0\UnityLesson_CS_HorseRacing.AssemblyInfo.cs
+C:\Users\User\Documents\GitHub\UnityLesson\unityCSarkseraph\UnityLesson_CS_Basic\UnityLesson_CS_HorseRacing\obj\Debug\net6.0\UnityLesson_CS_HorseRacing.csproj.CoreCompileInputs.cache
+C:\Users\User\Documents\GitHub\UnityLesson\unityCSarkseraph\UnityLesson_CS_Basic\UnityLesson_CS_HorseRacing\obj\Debug\net6.0\UnityLesson_CS_HorseRacing.dll
+C:\Users\User\Documents\GitHub\UnityLesson\unityCSarkseraph\UnityLesson_CS_Basic\UnityLesson_CS_HorseRacing\obj\Debug\net6.0\ref\UnityLesson_CS_HorseRacing.dll
+C:\Users\User\Documents\GitHub\UnityLesson\unityCSarkseraph\UnityLesson_CS_Basic\UnityLesson_CS_HorseRacing\obj\Debug\net6.0\UnityLesson_CS_HorseRacing.pdb
+C:\Users\User\Documents\GitHub\UnityLesson\unityCSarkseraph\UnityLesson_CS_Basic\UnityLesson_CS_HorseRacing\obj\Debug\net6.0\UnityLesson_CS_HorseRacing.genruntimeconfig.cache

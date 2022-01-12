@@ -45,7 +45,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UnityLesson_CS_SOLID", "Uni
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UnityLesson_CS_Delegate", "UnityLesson_CS_Delegate\UnityLesson_CS_Delegate.csproj", "{43522001-D6CE-4E77-8AA4-7E9CCB806849}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnityLesson_CS_HorseRacing", "UnityLesson_CS_HorseRacing\UnityLesson_CS_HorseRacing.csproj", "{8772CED2-0F1E-47DA-BAAF-EB7877E69A22}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UnityLesson_CS_HorseRacing", "UnityLesson_CS_HorseRacing\UnityLesson_CS_HorseRacing.csproj", "{8772CED2-0F1E-47DA-BAAF-EB7877E69A22}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnityLesson_CS_DiceGame", "UnityLesson_CS_DiceGame\UnityLesson_CS_DiceGame.csproj", "{5F7A4ECD-B0FE-48D8-9896-FC4B3EF24C7F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -141,6 +143,10 @@ Global
 		{8772CED2-0F1E-47DA-BAAF-EB7877E69A22}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8772CED2-0F1E-47DA-BAAF-EB7877E69A22}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8772CED2-0F1E-47DA-BAAF-EB7877E69A22}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5F7A4ECD-B0FE-48D8-9896-FC4B3EF24C7F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5F7A4ECD-B0FE-48D8-9896-FC4B3EF24C7F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5F7A4ECD-B0FE-48D8-9896-FC4B3EF24C7F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5F7A4ECD-B0FE-48D8-9896-FC4B3EF24C7F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

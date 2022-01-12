@@ -15,6 +15,7 @@ namespace UnityLesson_CS_HorseRacing
     {
         public string name;
         public int distance;
+        public bool dontMove;
 
         public void Run(int moveDistance)
         {
