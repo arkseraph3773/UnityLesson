@@ -13,10 +13,11 @@ namespace UnityLesson_CS_HorseRacing
 {
     internal class Horse
     {
-        public string name;
-        public int distance;
-        public bool dontMove;
+        public string name; //이름 
+        public int distance; //달린 거리
+        public bool dontMove; //움직이지마
 
+        //moveDistance 만큼 달린 거리를 증가시켜주는 함수
         public void Run(int moveDistance)
         {
             distance += moveDistance;
