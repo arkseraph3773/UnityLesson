@@ -13,7 +13,7 @@ namespace UnityLesson_CS_DiceGame
         public override void TileEvent()
         {
             base.TileEvent();
-            starValue++;
+            starValue++; //플레이어가 획득할수 있는 샛별 증가
         }
     }
 }

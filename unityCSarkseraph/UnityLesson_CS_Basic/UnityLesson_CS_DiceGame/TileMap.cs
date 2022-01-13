@@ -8,8 +8,9 @@ namespace UnityLesson_CS_DiceGame
 {
     internal class TileMap
     {
-        public Dictionary<int,TileInfo> dic_tile = new Dictionary<int,TileInfo>();
+        public Dictionary<int,TileInfo> dic_tile = new Dictionary<int,TileInfo>(); // 칸 번호, 칸 정보를 저장할 사전
 
+        //maxTileNum만큼 칸을 생성하는 함수
         public void MapSetup(int maxTileNum)
         {
             for (int i = 0; i < maxTileNum; i++)
@@ -17,6 +18,7 @@ namespace UnityLesson_CS_DiceGame
                 if(i%5 == 0)
                 {
                     // 샛별칸 생성
+                    /*TileInfo_Star tileInfo_Star = new TileInfo_Star();*/
                     TileInfo tileInfo_Star = new TileInfo_Star();
                     tileInfo_Star.index = i;
                     tileInfo_Star.name = "Star";
@@ -32,8 +34,8 @@ namespace UnityLesson_CS_DiceGame
                     tileInfo_Dummy.discription = "This is Dummy Tile";
                     dic_tile.Add(i, tileInfo_Dummy);
                 }
-                Console.WriteLine($"Map setup complete, Maximum tile number is {maxTileNum}");
             }
+            Console.WriteLine($"Map setup complete, Maximum tile number is {maxTileNum}");
         }
     }
 }
