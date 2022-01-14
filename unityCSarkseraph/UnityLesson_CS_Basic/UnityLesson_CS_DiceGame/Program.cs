@@ -33,76 +33,169 @@ namespace UnityLesson_CS_DiceGame
 {
     internal class Program
     {
-        static private int totalTile = 20; // 칸의 갯수
-        static private int currentStarPoint = 0; // 샛별 갯수
-        static private int totalDiceNumber = 20; // 주사위 갯수
-        static private int previousTileIndex = 0; // 이전칸 번호(플레이어가 샛별칸을 지나는지 비교하기 위함)
-        static private int currentTileIndex = 0; // 현재칸의 번호
-        static private Random random; // 난수생성용 변수 
+        static private int totalTile = 20;          // 칸의 갯수
+        static private int currentStarPoint = 0;    // 샛별 갯수
+        static private int totalDiceNumber = 20;    // 주사위 갯수
+        static private int previousTileIndex = 0;   // 이전칸 번호(플레이어가 샛별칸을 지나는지 비교하기 위함)
+        static private int currentTileIndex = 0;    // 현재칸의 번호
+        static private Random random;               // 난수생성용 변수 
         /*static private int minDice = 1; // 주사위 최소값
         static private int maxDice = 6; // 주사위 최대값*/
         //static int finishStar = 30;
         static void Main(string[] args)
         {
-            TileMap map = new TileMap(); //맵 클래스 인스턴스화
-            map.MapSetup(totalTile); // 맵생성 (20칸)
-            int currentDIceNumber = totalDiceNumber; // 현재 주사위 갯수 초기값은 최대 주사위 갯수
-            while (currentDIceNumber > 0)
+            TileMap map = new TileMap();                // 맵 클래스 인스턴스화
+            map.MapSetup(totalTile);                    // 맵생성 (20칸)
+            int currentDiceNumber = totalDiceNumber;    // 현재 주사위 갯수 초기값은 최대 주사위 갯수
+            while (currentDiceNumber > 0)               // 주사위 돌리는 while문
             {
-                int diceValue = RollADice();
-                currentDIceNumber--; //굴린 주사위 갯수 줄여줌
-                currentTileIndex += diceValue;
+                int diceValue = RollADice();            // 주사위 굴려서 나온 눈금
+                currentDiceNumber--;                    // 굴린 주사위 갯수 줄여줌 잔여 주사위 갯수 차감
+                currentTileIndex += diceValue;          // 주사위 눈금만큼 플레이어 전진
 
                 // 플레이어가 샛별칸을 지날때 (5의 배수칸을 지날때)
-                if (previousTileIndex / 5 < currentTileIndex /5)
+                if (previousTileIndex / 5 < currentTileIndex / 5) // 
                 {
-                    int passedStarTileIndex = CalcPassedStarTileIndex(currentTileIndex); // 지나온 샛별칸 번호 계산
-                    TileInfo passedStarTileInfo = map.dic_tile.GetValueOrDefault(passedStarTileIndex); // 지나온 샛별칸의 TileInfo 가져오기
-                    TileInfo_Star passedStarTileInfo_Star = passedStarTileInfo as TileInfo_Star; // TileInfo 타입을 TileInfo_Star로 인식하겠다.
-                    if (passedStarTileInfo_Star != null) // 샛별칸의 TileInfo 정보를 가져오는데 성공했으면
+                    int passedStarTileIndex = CalcPassedStarTileIndex(currentTileIndex);                // 지나온 샛별칸 번호 계산
+                    TileInfo passedStarTileInfo = map.dic_tile.GetValueOrDefault(passedStarTileIndex);  // 지나온 샛별칸의 TileInfo 가져오기
+                    TileInfo_Star passedStarTileInfo_Star = passedStarTileInfo as TileInfo_Star;        // TileInfo 타입을 TileInfo_Star로 인식하겠다.
+                    if (passedStarTileInfo_Star != null)                                                // 샛별칸의 TileInfo 정보를 가져오는데 성공했으면 != null은 not null
                     {
-                        currentStarPoint += passedStarTileInfo_Star.starValue; // 샛별 점수 누적
+                        currentStarPoint += passedStarTileInfo_Star.starValue;                          // 샛별 점수 누적
                     }
                 }
                 
-                if(currentTileIndex > totalTile) // 현재칸이 최대칸을 넘어가 버렸을때
+                if(currentTileIndex > totalTile)                                                        // 현재칸이 최대칸을 넘어가 버렸을때
                 {
-                    currentTileIndex -= totalTile; // 현재칸에다가 최대칸을 뺀다
+                    currentTileIndex -= totalTile;                                                      // 현재칸에다가 최대칸을 뺀다
                 }
 
-                TileInfo info = map.dic_tile.GetValueOrDefault(currentTileIndex); //map에서 현재칸의 TileInfo를 가져옴
-                if(info == null) // 현재칸의 TileInfo를 가져오지 못했을때는 프로그램을 강제종료한다.
-                   return;
-                Console.WriteLine($"Tile Index : {currentTileIndex}"); // 현재칸의 번호 출력
-                string tileMapName = info.name; // 현재칸의 이름
-                switch (tileMapName) // 현재칸의 이름에 따른 분기문
+                TileInfo info = map.dic_tile.GetValueOrDefault(currentTileIndex);                       // map에서 현재칸의 TileInfo를 가져옴
+                if(info == null)                                                                        // 현재칸의 TileInfo를 가져오지 못했을때는 프로그램을 강제종료한다.
+                {
+                    Console.WriteLine($"failed to get TileInfo number {currentTileIndex}"); // 타일맵 생성 오류 확인
+                    return;
+                }
+                // ==============override 함수의 성질을 이용한 경우=======================
+                info.TileEvent();
+                /*Console.WriteLine($"Tile Index : {currentTileIndex}");                                // 현재칸의 번호 출력*/
+                // ==============그냥 무식하게 경우마다 나눠서 코딩한 경우================
+                /*string tileMapName = info.name;                                                         // 현재칸의 이름
+                switch (tileMapName)                                                                    // 현재칸의 이름에 따른 분기문
                 {
                     case "Dummy":
+                        info.TileEvent(); // 해당 칸의 이벤트 실행
                         break;
                     case "Star":
+                        // TileInfo_Star로 인식할 필요가 없는 이유 : 
+                        // 자식 클래스를 객체화 시킨후에
+                        // 부모 클래스타입으로 인스턴스화 시키고
+                        // 해당 인스턴스의 함수를 호출할때
+                        // 그 함수가 override 되어있으면
+                        // 부모 클래스의 함수가 아닌, 자식클래스의 override 된 함수를 호출한다.
+                        info.TileEvent();
+                        TileInfo_Star infoStar = info as TileInfo_Star; // star tile info로 인식
+                        if (infoStar != null)
+                        {
+                            infoStar.TileEvent(); // 해당칸의 이벤트 실행
+                        }
+                        else // 실패하면
+                        {
+                            Console.WriteLine("Map has an error. Exit game");
+                            return; // 강제종료
+                        }
                         break;
                     default:
                         return;
-                }
+                }*/
+
+                previousTileIndex = currentTileIndex;
+                Console.WriteLine($"Current Star Point : {currentStarPoint}");
+                Console.WriteLine($"Remain Dice number : {currentDiceNumber}");
             }
+            Console.WriteLine($"Finished! You Got total{currentStarPoint} stars ");
         }
-        static private int RollADice() //주사위 굴리는 변수
+        static private int RollADice()                      //주사위 굴리는 변수
         {
             string userInput = "Default";
-            while (userInput != "") //키 입력 while문
+            while (userInput != "")                         //키 입력 while문
             {
                 Console.WriteLine("Roll a dice ! Press Enter");
                 userInput = Console.ReadLine();
             }
-            random = new Random(); // 난수 생성용 인스턴스
-            int diceValue = random.Next(1, 6 + 1); // 1~6 중 랜덤한 정수
+            random = new Random();                          // 난수 생성용 인스턴스
+            int diceValue = random.Next(1, 6 + 1);          // 1~6 중 랜덤한 정수
+            Console.WriteLine($"Dice Value : {diceValue}");
+            DisplayDice(diceValue);
             return diceValue;
+        }
+        static void DisplayDice(int diceValue)
+        {
+            switch (diceValue)
+            {
+                case 1:
+                    Console.WriteLine("┌───────────┐");
+                    Console.WriteLine("│           │");
+                    Console.WriteLine("│           │");
+                    Console.WriteLine("│     ●    │");
+                    Console.WriteLine("│           │");
+                    Console.WriteLine("│           │");
+                    Console.WriteLine("└───────────┘");
+                    break;
+                case 2:
+                    Console.WriteLine("┌───────────┐");
+                    Console.WriteLine("│         ●│");
+                    Console.WriteLine("│           │");
+                    Console.WriteLine("│           │");
+                    Console.WriteLine("│           │");
+                    Console.WriteLine("│ ●        │");
+                    Console.WriteLine("└───────────┘");
+                    break;
+                case 3:
+                    Console.WriteLine("┌───────────┐");
+                    Console.WriteLine("│         ●│");
+                    Console.WriteLine("│           │");
+                    Console.WriteLine("│     ●    │");
+                    Console.WriteLine("│           │");
+                    Console.WriteLine("│ ●        │");
+                    Console.WriteLine("└───────────┘");
+                    break;
+                case 4:
+                    Console.WriteLine("┌───────────┐");
+                    Console.WriteLine("│ ●      ●│");
+                    Console.WriteLine("│           │");
+                    Console.WriteLine("│           │");
+                    Console.WriteLine("│           │");
+                    Console.WriteLine("│ ●      ●│");
+                    Console.WriteLine("└───────────┘");
+                    break;
+                case 5:
+                    Console.WriteLine("┌───────────┐");
+                    Console.WriteLine("│ ●      ●│");
+                    Console.WriteLine("│           │");
+                    Console.WriteLine("│     ●    │");
+                    Console.WriteLine("│           │");
+                    Console.WriteLine("│ ●      ●│");
+                    Console.WriteLine("└───────────┘");
+                    break;
+                case 6:
+                    Console.WriteLine("┌───────────┐");
+                    Console.WriteLine("│ ●      ●│");
+                    Console.WriteLine("│           │");
+                    Console.WriteLine("│ ●      ●│");
+                    Console.WriteLine("│           │");
+                    Console.WriteLine("│ ●      ●│");
+                    Console.WriteLine("└───────────┘");
+                    break;
+                default:
+                    break;
+            }
         }
 
         // 현재 칸의 번호를 넣어주면 지나온 샛별칸의 번호를 반환해주는 함수
         static public int CalcPassedStarTileIndex(int currentTileIndex)
         {
-            int index = currentTileIndex / 5 * 5;
+            int index = currentTileIndex / 5 * 5; 
             return index;
         }
     }

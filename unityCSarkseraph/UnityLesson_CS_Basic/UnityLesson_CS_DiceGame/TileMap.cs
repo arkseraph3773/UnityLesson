@@ -13,7 +13,7 @@ namespace UnityLesson_CS_DiceGame
         //maxTileNum만큼 칸을 생성하는 함수
         public void MapSetup(int maxTileNum)
         {
-            for (int i = 0; i < maxTileNum; i++)
+            for (int i = 1; i <= maxTileNum; i++)
             {
                 if(i%5 == 0)
                 {
